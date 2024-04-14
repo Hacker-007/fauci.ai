@@ -4,6 +4,6 @@
   "description": "An LLM to validate code for deprecation warnings and other errors",
   "version": "1.0",
   "action": {
-    "default_popup": "fauciai.html"
+    "default_popup": "index.html"
   }
 }
