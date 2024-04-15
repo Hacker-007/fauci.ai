@@ -6,6 +6,9 @@ import requests
 import json
 import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 code_inst = '''You are a helpful assistant. You will be provided with text from

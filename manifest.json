@@ -13,5 +13,6 @@
     "service_worker": "src/background/service-worker.js",
     "type": "module"
   },
+  "host_permissions": ["http://localhost/*"],
   "permissions": ["sidePanel", "activeTab", "scripting"]
 }
