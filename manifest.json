@@ -4,6 +4,14 @@
   "description": "An LLM to validate code for deprecation warnings and other errors",
   "version": "1.0",
   "action": {
-    "default_popup": "index.html"
-  }
+    "default_title": "Open Fauci.AI Chat"
+  },
+  "side_panel": {
+    "default_path": "src/chat/chat.html"
+  },
+  "background": {
+    "service_worker": "src/background/service-worker.js",
+    "type": "module"
+  },
+  "permissions": ["sidePanel", "activeTab", "scripting"]
 }
